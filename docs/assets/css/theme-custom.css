@@ -154,17 +154,6 @@
   transition: all .2s;
 }
 
-.markdown-section blockquote h2 {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.markdown-section blockquote h3 {
-  margin: 0;
-  padding: 0;
-}
-
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: 0;
@@ -198,17 +187,6 @@
   font-style: var(--blockquote-font-style);
   font-weight: var(--blockquote-font-weight);
   quotes: "“""”""‘""’";
-}
-
-.reminders h2 {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.reminders h3 {
-  margin: 0;
-  padding: 0;
 }
 
 .reminders ul {
