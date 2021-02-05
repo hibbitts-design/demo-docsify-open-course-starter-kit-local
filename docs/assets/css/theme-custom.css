@@ -118,7 +118,7 @@
     color: #fff;
     background-color: #6c757d;
     display: inline-block;
-    padding: .25em .4em .25em 1.6em;
+    padding: .25em .4em .25em .4em;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
@@ -164,7 +164,6 @@
 
 .markdown-section blockquote ul li {
   padding-left: 0em;
-  text-indent: -1em;
 }
 
 .markdown-section blockquote ul li:before {
@@ -199,7 +198,6 @@
 
 .reminders ul li {
   padding-left: 0em;
-  text-indent: -1em;
 }
 
 .reminders ul li:before {
