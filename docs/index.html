@@ -24,11 +24,9 @@
     <script>LUME.useDefaultNames()</script>
 
     <style>
-      :root {
+    :root {
         --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
         --base-font-size: 1.1rem;
-
-	      --link-color:  rgb(104, 118, 52);
 
         --heading-h2-border-style: none;
         --heading-h2-margin: -.4rem 0rem -.6rem 0rem;
@@ -61,7 +59,6 @@
         --link-text-decoration--hover: underline;
 
         --pagination-title-color: #0B87DA;
-
       }
     </style>
 
@@ -83,7 +80,6 @@
             // GENERAL SETTINGS
             // -----------------------------------------------------------------
             name       : 'Docsify Open Course Starter Kit',
-            repo       : 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local',
             homepage   : 'home.md',
             loadSidebar: 'sidebar.md',
             loadNavbar : !(getParameterByName('embedded') === 'true'),
@@ -103,10 +99,36 @@
                 depth      : 3,
                 noData     : 'No matches found.',
                 placeholder: 'Enter search text here...'
-            }
+            },
 
-        };
+          // CUSTOM PLUGINS
+          // -----------------------------------------------------------------
+          plugins: [
+            function (hook, vm) {
+              hook.beforeEach(function (html) {
+                if (/githubusercontent\.com/.test(vm.route.file)) {
+                  url = vm.route.file
+                    .replace('raw.githubusercontent.com', 'github.com')
+                    .replace(/\/master/, '/blob/master')
+                } else {
+                  url = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-local/tree/master/docs/' + vm.route.file
+                }
+                var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
+
+                // Adjust GitHub displayable image URL format to also work in Docsify
+                html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
+
+                if (!(getParameterByName('hidegithublink') === 'true')) {
+                  return html + '\n\n----\n\n' + editHtml
+                } else {
+                  return html
+                }
+              })
+            }
+          ]
+        }
     </script>
+
     <!-- https://www.jsdelivr.com/package/npm/docsify/ -->
     <script src="assets/vendor/docsify/docsify.js"></script>
 
