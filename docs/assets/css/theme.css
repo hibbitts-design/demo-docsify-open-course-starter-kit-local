@@ -128,6 +128,15 @@
   object-position: 50% 50%;
 }
 
+.markdown-section .banner-tall-image {
+  width: 100%;
+  /* width of container */
+  height: 400px;
+  /* height of container */
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .pagination-item, .pagination-item-title {
   opacity: .9 !important;
 }
