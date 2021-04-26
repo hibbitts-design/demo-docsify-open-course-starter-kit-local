@@ -84,6 +84,17 @@ If the automatically generated 'Edit this Page on GitHub' link is not working, y
 2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
 3. Commit your changes
 
+🌐 Hosting a Docsify Open Course Site Within Your LMS
+---
+
+As Docsify Open Course Starter Kit is serverless, it can actually be hosted on many LMSs that support file libraries such as Canvas and Moodle.
+
+For example, here is a [Docsify Open Course Site hosted within a Canvas course](https://canvas.sfu.ca/courses/44038/files/15884796/download).
+
+**Hosting a Docsify Open Course Site on your LMS**
+1. Tap **Download** on your repository page
+2. Upload to your LMS file storage area, and unzip the upload file
+3. Based on your LMS, determine the external URL required to load the `index.html` file within the Docsify `Docs` folder. In Canvas, an example URL would look similar to `https://canvas.sfu.ca/courses/44038/files/15884796/download`.
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
