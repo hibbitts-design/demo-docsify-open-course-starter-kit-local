@@ -75,15 +75,6 @@ To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
 For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
-🧰 Troubleshooting
----  
-
-If the automatically generated 'Edit this Page on GitHub' link is not working, you can manually set the source URL to your GitHub Repository.
-
-1. Edit the file index.html in your repository
-2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
-3. Commit your changes
-
 🌐 Hosting a Docsify Open Course Site Within Your LMS
 ---
 
@@ -95,6 +86,8 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 1. Tap **Download** on your repository page
 2. Upload to your LMS file storage area, and unzip the upload file
 3. Based on your LMS, determine the external URL required to load the `index.html` file within the Docsify `Docs` folder. In Canvas, an example URL would look similar to `https://canvas.sfu.ca/courses/44038/files/15884796/download`.
+
+Please note that once hosted in your LMS changes made to the source GitHub repository are no longer automatically synced to your hosted course. Any file changes made must be manually uploaded to the LMS file library area.
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
