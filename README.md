@@ -5,7 +5,7 @@
 <a href="https://discord.gg/zT8eS8ZG">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
-> This is a starter kit to create a [Docsify](https://docsify.js.org) Markdown-based open course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@programmieraffe](https://github.com/programmieraffe) for the suggestion).
+> This is a starter kit to create a [Docsify](https://docsify.js.org) Markdown-based open course site. To address possible privacy/GDPR concerns all needed css/js files are loaded locally and not via CDN (thanks to [@mandrasch](https://github.com/mandrasch) for the suggestion).
 
 📸 Docsify Open Course Screenshot
 ---
