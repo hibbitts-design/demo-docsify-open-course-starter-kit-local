@@ -10,20 +10,8 @@
 📸 Docsify Open Course Screenshot
 ---
 ![ Docsify Open Course Starter Kit](screenshot.jpg)
-_Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.github.io/docsify-open-course-starter-kit/](https://hibbitts-design.github.io/docsify-open-course-starter-kit/)_
+_Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.github.io/demo-docsify-open-course-starter-kit/](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/)_
 
-🚀 GitHub Pages Quickstart
----
-**Pre-flight Checklist**  
-
-1. GitHub account
-
-**Installation and Deployment**  
-
-1. Tap **Use this template** on the source repository (upper-right green button)
-2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
-3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
-4. Now your pages are published (view your new site using the provided URL on the **Pages** tab - it can take up to 20 minutes for your site to be initially available)
 🚀 GitHub Pages Quickstart
 ---
 **Pre-flight Checklist**  
@@ -34,8 +22,10 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 1. Tap **Use this template** on the source repository (upper-right green button)
 2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
-3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch/docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
+3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 20 minutes for your site to be initially available)
+
+[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Installation-and-Deployment-Guide)
 
 **Editing Your Docsify Site Pages on GitHub**
 
@@ -43,17 +33,17 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
-[Learn more about pages in Docsify.](https://docsify.js.org/#/more-pages)
+[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
 📝 Activating the “Edit this Page” Link
 ---   
 
 1. At the top-level of your GitHub Repository, copy the URL and then tap on the `docs` folder
-2. Tap on the file `index.html` within the `docs` folder
+2. Tap on the file `index.html` within the `docs` folder 
 3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
-[Learn more about Docsify's configuration options.](https://docsify.js.org/#/configuration?id=configuration)
+[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Activating-the-Edit-this-Page-Link-Guide)
 
 💻 Locally Editing your Docsify Site Pages
 ---  
@@ -82,13 +72,13 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 `?embedded=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
+For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
 
 To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
 `?embedded=true&hidegitlink=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
+For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
 🌐 Using an LMS to Host a Docsify Open Course Site
 ---
