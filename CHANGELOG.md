@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.0.0)
+## [v1.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.0)
 ### 05/18/2021
 
 **Improved:**  
@@ -10,7 +10,7 @@
 * Adjusted breakpoint for two column display
 * Decreased padding between items in navbar
 
-## [v1.0.0-preview.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.0.0-preview.2)
+## [v1.0.0-preview.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.0-preview.2)
 ### 05/10/2021
 
 **Improved:**  
@@ -27,7 +27,7 @@
 * Fixed label colour for linked badges
 * Consistent hover behaviour for linked badges and buttons
 
-## [v1.0.0-preview.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.0.0-preview.1)
+## [v1.0.0-preview.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.0-preview.1)
 ### 05/04/2021
 
 **New:**  
