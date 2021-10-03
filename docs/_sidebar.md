@@ -9,5 +9,6 @@
 - [<i class="fas fa-check-circle"></i> Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
 - [<i class="fas fa-comments"></i> Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
 - [<i class="fas fa-list"></i> Syllabus](https://canvas.sfu.ca/courses/44038/assignments/syllabus)
-- **Project Documentation**
+- **Project Info**
+  - [GitHub Repository](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/)
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/blob/main/README.md)
