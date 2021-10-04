@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.3)
-### 10/04/2021
+### 10/05/2021
 
 **Improved:**
 * Changed name of Sidebar page
