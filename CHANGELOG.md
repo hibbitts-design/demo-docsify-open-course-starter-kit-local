@@ -1,6 +1,12 @@
 # Changelog
 
-## [v1.0.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.3)
+## [v1.0.5](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.4)
+### 10/15/2021
+
+**Improved:**  
+* Relocated images to be within top-level docs folder
+
+## [v1.0.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.4)
 ### 10/05/2021
 
 **Improved:**
