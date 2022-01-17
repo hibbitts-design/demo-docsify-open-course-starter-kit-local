@@ -5,6 +5,7 @@
 
 **Improved:**  
 * Updated local FontAwesome support via CSS files
+* Updated Docsify to v4.12.2
 
 ## [v1.0.6](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.6)
 ### 11/15/2021
