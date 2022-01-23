@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.7](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.7)
-### XX/XX/2022
+### 01/23/2022
 
 **Improved:**  
 * Updated local FontAwesome support via CSS files
