@@ -6,6 +6,9 @@
 **Improved:**  
 * Restored user zoom ability for improved accessibility
 
+**Bugfix:** 
+* Fixed incorrect H3 headers
+
 ## [v1.0.7](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.7)
 ### 01/23/2022
 
