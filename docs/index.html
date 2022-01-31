@@ -28,6 +28,9 @@
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.css" />
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.css" />
 
+  <!-- ToC Plugin Stylesheet -->
+  <link rel="stylesheet" href="assets/css/toc.css">
+
   <style>
     :root {
       --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -135,6 +138,12 @@
         crossChapterText: true,
       },
 
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h2, h3, h4, h5, h6',
+        title: 'Table of Contents',
+      },
+      
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
@@ -189,6 +198,13 @@
 
   <!-- Pagination Plugin -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Table of Contents Plugin -->
+  <script>
+    if (getURLParameterByName('toc') === 'true' || getURLParameterByName('ToC') === 'true') {
+      document.write('<script src="assets/vendor/docsify/plugins/toc.js"><\/script>');
+    }
+  </script>
 
 </body>
 
