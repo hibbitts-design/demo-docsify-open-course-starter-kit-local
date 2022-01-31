@@ -3,10 +3,13 @@
 ## [v1.0.8](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.8)
 ### XX/XX/2022
 
+**New:**  
+* Added conditional display of page table of contents (`?toc=true`)
+
 **Improved:**  
 * Restored user zoom ability for improved accessibility
 
-**Bugfix:** 
+**Bugfix:**
 * Fixed incorrect H3 headers
 
 ## [v1.0.7](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.7)
@@ -89,6 +92,7 @@
 * Adjusted header sizes and margins
 * List and button style updates
 * Updated GitHub repo URL config and documentation
+
 **Bugfix:**  
 * Fixed label colour for linked badges
 * Consistent hover behaviour for linked badges and buttons
