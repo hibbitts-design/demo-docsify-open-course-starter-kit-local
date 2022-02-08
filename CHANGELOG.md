@@ -8,6 +8,7 @@
 
 **Improved:**  
 * Restored user zoom ability for improved accessibility
+* Revised JS function `getURLParameterByName` to accept multiple terms (i.e. to support aliases) and also include functionality of previous returnByURLParameterByName function
 
 **Bugfix:**
 * Fixed incorrect H3 headers
