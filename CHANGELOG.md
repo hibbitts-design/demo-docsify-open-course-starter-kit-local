@@ -6,6 +6,7 @@
 **Improved:**  
 * Aligned default link colour to be the same as Canvas LMS
 * Added example link colours to be the same as Moodle LMS
+* Adjusted left Markdown section padding
 
 ## [v1.0.9](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.9)
 ### 03/21/2022
