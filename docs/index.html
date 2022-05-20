@@ -55,6 +55,7 @@
       --heading-h6-font-weight: 400;
       --navbar-root-margin: 0 0 0 .8em;
       --sidebar-name-color: #0374B5;
+      --sidebar-name-margin: 1.5rem -.2rem;
       --sidebar-nav-link-font-weight--active: bold;
       --link-color: #0374B5;
       --link-text-decoration: underline;
@@ -63,7 +64,7 @@
       // Link colour to match visual styling of Moodle LMS
       // --link-color: #0F6CBF;
       // --pagination-title-color: #0F6CBF;
-      
+
     }
   </style>
 
@@ -166,7 +167,7 @@
             // Adjust GitHub displayable image URL format to also work in Docsify
             html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
-            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
+            if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return html + '<br />' + '\n\n' + '<hr>' + '\n\n' + editHtml
             } else {
               return html
