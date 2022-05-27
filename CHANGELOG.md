@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.0.10](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.0.10)
+## [v1.1.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.1.0)
 ### XX/XX/2022
 
 **Improved:**  
