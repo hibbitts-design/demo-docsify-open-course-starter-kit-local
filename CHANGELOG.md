@@ -8,11 +8,13 @@
 * Adjusted font size and line height for Topics index items
 * Added example CSS colours to be the same as Sakai LMS
 * Streamlined settings for custom CSS colours
+* Simplified 'ToC' setting in index.html
 
 **Bugfix:**   
 * Fixed incorrect links in example course content
 * Added missing Sidebar name and link colour settings
 * Support the removal of the '_sidebar.md' file with standalone setting
+* Added missing local toc.js file
 
 ## [v1.1.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.1.0)
 ### 05/30/2022
