@@ -39,15 +39,16 @@ var tocClick = function(e) {
   });
 
   // Make sure this is attached to the parent not itself
-  e.target.parentNode.setAttribute('class', 'active')
+  e.currentTarget.setAttribute('class', 'active')
 };
 
 var createList = function(wrapper, count) {
   while (count--) {
-    wrapper = wrapper.appendChild(
-      document.createElement('ul')
-    );
-
+    if(wrapper){
+	    wrapper = wrapper.appendChild(
+	      document.createElement('ul')
+	    );
+    }
     if (count) {
       wrapper = wrapper.appendChild(
         document.createElement('li')
