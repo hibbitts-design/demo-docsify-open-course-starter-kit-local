@@ -9,6 +9,7 @@
 * ReadMe updated
 * Updated to Docsify v4.13
 * Removed deprecated emoji plugin (as of Docsify v4.13)
+* Support for page-to-page navigation when embedded/standalone
 
 ## [v1.1.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.1.1)
 ### 09/02/2022
