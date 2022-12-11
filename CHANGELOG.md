@@ -8,6 +8,9 @@
 * Support for full-width header image (`header-image-full-width`, optional Table of Contents not available)
 * If use of Embedly classes are within Markdown, remote JS is loaded (otherwise, not loaded)
 
+**Improved:**
+* ReadMe updated
+
 ## [v1.1.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.1.2)
 ### 11/23/2022
 
