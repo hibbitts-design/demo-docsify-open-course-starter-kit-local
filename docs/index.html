@@ -123,6 +123,9 @@
     // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
     var navbar = false;
 
+    // Set footer to true to permanently show the Footer ('_footer.md)
+    var footer = false;
+
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
     // @param {*} isTrue Return if found
@@ -171,6 +174,7 @@
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       executeScript: true,
+      loadFooter: (getURLParameterByName('footer') || footer || false),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
@@ -223,8 +227,16 @@
                 URLparms = URLparms + `&hidegitlink=true`;
               }
 
+              if (getURLParameterByName('navbar') || navbar) {
+                URLparms = URLparms + `&navbar=true`;
+              }
+
               if (getURLParameterByName('toc') || ToC) {
                 URLparms = URLparms + `&toc=true`;
+              }
+
+              if (getURLParameterByName('footer') || footer) {
+                URLparms = URLparms + `&footer=true`;
               }
 
               var htmlElement = document.createElement('div');
@@ -329,6 +341,9 @@
 
   <!-- Pagination Plugin -->
   <script src="assets/vendor/docsify/plugins/docsify-pagination.min.js"></script>
+
+  <!-- Docsify Footnotes Plugin -->
+  <script src="assets/vendor/docsify/plugins/docsify-footnotes.min.js"></script>
 
   <!-- Table of Contents Plugin -->
   <script>
