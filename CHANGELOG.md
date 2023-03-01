@@ -5,6 +5,7 @@
 
 **Improved:**   
 * Restore initial header spacing except for alerts and blockquotes
+* Match Docsify-This and Docsify Starter Kit Source Sans Pro font set
 
 ## [v1.2.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.1)
 ### 02/13/2023
