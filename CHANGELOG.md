@@ -5,6 +5,7 @@
 
 **Improved:**   
 * Match Docsify-This Markdown file rendering with Docsify Starter Kits CSS (incl. faded header image ToC adjustments and automatic responsive iFrames for YouTube and Google Docs embeds)
+* Updated to Docsify v4.13.1
 
 ## [v1.2.4](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.4)
 ### 05/08/2023
