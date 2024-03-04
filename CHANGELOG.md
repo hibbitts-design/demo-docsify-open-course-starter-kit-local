@@ -1,7 +1,13 @@
 # Changelog
 
-## [v1.2.13](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.13)
+## [v1.2.14](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.14)
 ### XX/XX/2024
+
+**Improved:**
+* Updated to use docsify-tabs plugin 1.6.2.
+
+## [v1.2.13](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.13)
+### 03/04/2024
 
 **New:**
 * Support for the Browser-level image lazy loading (with thanks and appreciation to @sy-records for the source plugin 'docsify-loading')
