@@ -6,6 +6,9 @@
 **Improved:**
 * Updated to use docsify-tabs plugin 1.6.2
 
+**Bugfix:**
+* Remove CSS for use with accordion elements with plain details/summary elements
+
 ## [v1.2.13](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.13)
 ### 03/04/2024
 
