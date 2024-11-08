@@ -11,6 +11,7 @@
 * Cleanup HTML
 * Updated Font Awesome Free assets to v6.6.0
 * Update uses of Font Awesome
+* Match Docsify-This CSS with Docsify Starter Kits CSS
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
 ### 10/17/2024
