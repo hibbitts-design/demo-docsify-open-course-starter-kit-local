@@ -1,23 +1,19 @@
 # Changelog
 
-## [v1.2.21](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.21)
-### XX/XX/2024
+## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
+### 12/03/2024
 
 **New:**
 * Added default setting of false for `mergeNavbar` to move Navbar items to the top of the Sidebar on smaller screens
 
 **Improved:**
+* Updated CSS with word-wrap for code blocks
 * Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
 * Cleanup HTML
 * Updated Font Awesome Free assets to v6.6.0
 * Update uses of Font Awesome
 * Match Docsify-This CSS with Docsify Starter Kits CSS
-
-## [v1.2.20](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.2.20)
-### 10/17/2024
-
-**Improved:**
-* Updated CSS with word-wrap for code blocks
+* Updated to use docsify-tabs plugin v1.6.2
 
 **Bugfix:**
 * Scroll offset fix (with thanks and appreciation to @rizdaprasetya for the initial code)
