@@ -519,11 +519,11 @@
 }
 
 .markdown-section .column img {
-  padding-top: .35rem;
+  margin-top: .35rem;
 }
 
 .markdown-section .column-right img {
-  padding-top: .35rem;
+  margin-top: .35rem;
 }
 
 .markdown-section .reverse-columns .column {
