@@ -1,10 +1,10 @@
 # Changelog
 
 ## [v1.3.3](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.3)
-### XX/XX/2025
+### 07/02/2025
 
 **Improved:**
-* Updated to use docsify-footnotes plugin v2.2.1
+* Updated to use latest docsify-footnotes plugin (v2.2.1)
 
 ## [v1.3.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit-local/releases/tag/v1.3.2)
 ### 04/09/2025
