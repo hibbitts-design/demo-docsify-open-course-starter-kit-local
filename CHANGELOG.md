@@ -25,6 +25,7 @@
 * Support a top Edit this Page link below full-width header images
 * A card's link button in its own paragraph now sits at the bottom of the card, lined up across the row
 * Cards in a list line up across each row (image, title, text), however long their titles are
+* An empty navbar no longer leaves space above the page
 * Updated ReadMe
 
 **Bugfix:**
